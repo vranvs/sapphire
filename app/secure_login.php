@@ -2,10 +2,13 @@
 
 if(isset($_GET['error'])){
     if($_GET['error'] == 1){
-        $login_error = 'Incorrect username/password combination.';
+        $login_error = 'Incorrect password.';
     }
     elseif($_GET['error'] == 2){
         $login_error = 'You are not logged in.';
+    }
+    elseif($_GET['error'] == 3){
+        $login_error = 'Username does not exist.';
     }
 }else{
     $login_error = '';

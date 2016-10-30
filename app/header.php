@@ -3,7 +3,7 @@
 session_start();
 
 if(!isset($_SESSION['username']) || !isset($_SESSION['user_group'])){
-    header('secure_login.php?error=2');
+    header('Location: secure_login.php?error=2');
 }else {
 
     $user_id        = $_SESSION['user_id'];
@@ -16,6 +16,15 @@ if(!isset($_SESSION['username']) || !isset($_SESSION['user_group'])){
     $user_avatar    = $_SESSION['user_avatar'];
     $user_group     = $_SESSION['user_group'];
     $user_ldate     = $_SESSION['date'];
+
+    if($user_group == 999){
+        //Admin logged in
+        $admin_btn = '<li><a href="administration.php">Administration</a></li>';
+        $stats_btn = '<li><a href="analytics.php">Analytics</a></li>';
+    }else{
+        $admin_btn = '';
+        $stats_btn = '';
+    }
 }
 ?>
 
@@ -45,23 +54,31 @@ if(!isset($_SESSION['username']) || !isset($_SESSION['user_group'])){
             <a href="#!name"><span class="white-text name"><?php echo($_SESSION['user_fullname']) ?></span></a>
             <a href="#!email"><span class="white-text email"><?php echo($_SESSION['user_email']) ?></span></a>
         </div></li>
+    <!-- MAIN LINK BLOCK -->
     <li><a href="#!"><i class="material-icons">dashboard</i>Dashboard</a></li>
     <li><a href="#!"><i class="material-icons">accessibility</i>Leads</a></li>
     <li><a href="#!"><i class="material-icons">date_range</i>Schedule</a></li>
-    <li><a href="#!"><i class="material-icons">assessment</i>Estimates</a></li>
+    <li><a href="#!"><i class="material-icons">assessment</i>Estimate Calculator</a></li>
     <li><a href="#!"><i class="material-icons">work</i>Work Orders</a></li>
-    <li><a href="#!"><i class="material-icons">shopping_cart</i>Material Order</a></li>
+    <li><a href="#!"><i class="material-icons">shopping_cart</i>Material Orders</a></li>
+    <!-- SEPARATOR BLOCK -->
+    <li><div class="divider"></div></li>
+    <li><a class="subheader"><?php echo($user_firstname . '\'s Account') ?></a></li>
+    <!-- SECONDARY LINK BLOCK -->
+    <li><a href="#!"><i class="material-icons">settings</i>Account Settings</a></li>
+    <li><a href="#!"><i class="material-icons">close</i>Logout</a></li>
 </ul>
 
 <header>
 <nav>
     <div class="nav-wrapper blue-grey darken-4">
         <div class="valign-wrapper">
-            <a href="#" class="brand-logo center">Innovation</a>
+            <a id="app_page_title" href="#" class="brand-logo center">Dashboard</a>
         </div>
         <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="group_manage.php?group=$user_group">Manage</a></li>
+            <?php echo($admin_btn) ?>
+            <?php echo($stats_btn) ?>
         </ul>
     </div>
 </nav>

@@ -34,12 +34,16 @@ if ($stmt->rowCount() == 1) {
         $_SESSION['user_avatar'] = $row['avatardir'];
         $_SESSION['date'] = date("Y-m-d");
 
-        }
         header('Location: app.php');
+        }
+    else
+    {
+        header('Location: secure_login.php?error=1');
+    }
 }
 else
 {
-    header('Location: secure_login.php?error=1');
+    header('Location: secure_login.php?error=3');
 }
 
 
