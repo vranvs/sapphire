@@ -25,6 +25,7 @@ if(isset($_GET['error'])){
     <!-- Compiled and minified CSS -->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/topcoat-desktop-light.css"  media="screen,projection"/>
     <link rel="stylesheet" href="css/chartist.css">
     <link rel="stylesheet" href="css/custom.css">
 

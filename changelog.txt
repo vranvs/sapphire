@@ -1,0 +1,30 @@
+
+/*----------------------------------------------------*/
+October 30, 2016
+- Stylizing .widget and subclasses
+- Stylizing .formal-inputs
+- Created, stylized "Add Lead" widget;
+- Stylizing news feed widget;
+-
+
+
+/*----------------------------------------------------*/
+October 29, 2016
+- Project started
+    credentials{
+    dbname  =   sapphire;
+    dbuser  =   sapphire_admin;
+    dbpass  =   8F9KDsJ5pDcKYxJT;
+    }
+- Database created
+- Employees table created
+    flags{
+        permission: 999 = admin
+        group:      99 = admin
+    }
+- Login page setup
+    salt{
+    Commented out for now, will enforce encryption upon release
+    }
+- Dashboard created
+- Widget CSS started

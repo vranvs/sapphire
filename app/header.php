@@ -71,9 +71,9 @@ if(!isset($_SESSION['username']) || !isset($_SESSION['user_group'])){
 
 <header>
 <nav>
-    <div class="nav-wrapper blue-grey darken-4">
+    <div class="nav-wrapper blue-grey darken-2">
         <div class="valign-wrapper">
-            <a id="app_page_title" href="#" class="brand-logo center">Dashboard</a>
+            <a id="app_page_title" href="#" class="brand-logo center" style="font-weight: 200;">Dashboard</a>
         </div>
         <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
