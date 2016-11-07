@@ -1,3 +1,60 @@
+/*----------------------------------------------------*/
+November 2-6, 2016
+- Enabled posting and commenting (PHP Backend, JS frontend)
+- Created auto-sizeable widget CSS class for mobile layouts
+- Created estimate calculator
+    - Optimized dynamic layout for mobile and PC users
+- Enabled links on side navigation panel
+- Signed up for AccuWeather 6-month developer API access{
+    API Key: AAHeyLjBik8eNL68OWwHQuRMKaqUR02R
+    USERNAME: nicholas.ostan2@ucalgary.ca
+    PASSWORD: Nicholas.1
+    Key issued: Fri, Nov 04/2016 @ 11:59AM
+    App Name: Sapphire IMS
+    Barrie City Code: 49550
+    Orangeville City Code: 54977
+    }
+- Enabled logout
+- Created autocomplete for clients and employees in dash and estimator calculator
+- Creating widget minimize button
+- Optimizing widget CSS layout for future dynamic JS reorganization (drag/drop, custom dashboard).
+- New Weather URL{
+
+    http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/49550?apikey=AAHeyLjBik8eNL68OWwHQuRMKaqUR02R&language=en-us&details=true&metric=true
+}
+
+/*----------------------------------------------------*/
+November 1, 2016
+- Created and stylized news feed post, news feed comment section and news feed comment block
+- Hooked up new lead widget to back end{
+    - Added validation of Employee name
+}
+- Created backend PHP for retrieving unserviced leads
+- Connected backend & front end for recent leads
+- Recent leads widget refreshes immediately upon lead entry
+-
+
+/*----------------------------------------------------*/
+October 31, 2016
+- Leads database setup
+- Added address field to leads widget
+- Created OpenWeatherMap account{
+    e-mail: nicholas.ostan2@ucalgary.ca
+    password: Nicholas.1
+    Request URL for Barrie -> 3h/5day{
+        http://api.openweathermap.org/data/2.5/forecast?id=5894171&appid=b1b15e88fa797225412429c1c50c122a1&apikey=4db1d13d846b5e8bca989e8322854070
+        API Key:                4db1d13d846b5e8bca989e8322854070
+        Orangeville City ID:    6094201
+        Barrie City ID:         5894171
+    }
+    Request URL for Barrie -> 16day{
+        http://api.openweathermap.org/data/2.5/forecast/daily?id=5894171&mode=json&units=metric&cnt=3&apikey=4db1d13d846b5e8bca989e8322854070
+    }
+    API Key does not need to be included in PHP Curl/hidden because .js files are available to employees only. Perhaps change to PHP upon release of subscription service.
+- Switched from chartist.js to charts.js graphing library
+- Implemented crude hourly weather graph
+- Setting up Twilio API for text messages
+}
 
 /*----------------------------------------------------*/
 October 30, 2016
@@ -5,8 +62,6 @@ October 30, 2016
 - Stylizing .formal-inputs
 - Created, stylized "Add Lead" widget;
 - Stylizing news feed widget;
--
-
 
 /*----------------------------------------------------*/
 October 29, 2016

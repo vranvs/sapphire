@@ -68,14 +68,17 @@ input[type=date].formal-input{
     background-color: white;
     border: 1px solid #cfd8dc;
     margin: 10px 3px 3px 3px;
-    min-height: 250px;
-    max-height: 250px;
-    overflow: hidden;
+    height: 250px;
     border-radius: 2px;
+    overflow-y: scroll;
     /*box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); /*Z-depth-1*/
 }
+.widget.auto-height{
+    height: auto;
+    overflow: visible;
+}
 .widget.news-feed{
-    min-height: 500px !important;
+    height: auto;
 }
 .widget-header{
     cursor: grab;
@@ -83,6 +86,14 @@ input[type=date].formal-input{
 
 .widget-header h6{
     font-weight: 300;
+}
+@media only screen and (max-width: 992px) {
+    .widget{
+        height: auto !important;
+    }
+}
+.widget-body{
+    max-width: 100%;
 }
 
 .widget-title{
@@ -99,24 +110,141 @@ input[type=date].formal-input{
     cursor: pointer;
     color: #b0bec5; /* BLUE-GREY LIGHTEN 3 */
 }
+.auto-height{
+    height: auto !important;
+}
 
 /* AUX CONTAINERS */
-.news-feed-post{
-    font-size: 11px;
-    border-radius: 2px;
+.acd{
+    position: absolute;
+    z-index: 999;
+    background: white;
+    width: 100%;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); /*Z-DEPTH-1*/
 }
-.news-feed-post:nth-child(even).post-content{
+.autocomplete-selection{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: black;
+    text-align: left;
+    margin-top: 2px;
+    border-radius: 2px;
+    border-bottom: 2px solid #b2dfdb;
+    text-transform: uppercase;
+}
+.autocomplete-selection:hover{
+    cursor: pointer;
     background-color: #e0f2f1;
 }
-.news-feed-post:nth-child(odd).post-content{
-    background-color: #b2dfdb;
+.initHide{
+    display: none;
 }
-.post-avatar{
-    display: block;
+.weather-panel-container{
+    padding: 3px;
+}
+.weather-panel{
+    margin-bottom: 15px;
+    border-left: 1px solid #f5f5f5;
+    border-radius: 2px;
+}
+.weather-panel:nth-child(even){
+    background-color: #fafafa;
+}
+.weather-panel:nth-child(odd){
+    background-color: white;
+}
+.post-container{
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); /* Z-DEPTH-1.5 */
+    border-radius: 2px;
+    border: 1px solid #fafafa;
+    margin-bottom: 20px;
+}
+.post-title{
+    font-size: 14px;
+    margin: 3px;
+    position: relative;
     float: left;
+    vertical-align: middle;
+}
+.post-date{
+    font-size: 11px;
 }
 .post-content{
-    display: block;
-    float: left;
+    font-size: 12px;
+    margin-top: 8px;
+}
+.post-comment{
+    margin-top: 5px;
+    font-size: 12px;
+    padding: 10px !important;
+}
+.mini-icon{
+    font-size: 18px;
+    color: #b0bec5;
+    cursor:pointer;
+}
+.mini-icon:hover{
+    color: #4db6ac;
+}
+textarea.post-textarea{
+    border-radius: 2px;
+    border: 1px solid #b2dfdb;
+    margin: 10px 0 10px 0;
+    resize: none;
+    padding: 8px;
+    min-height: 50px;
+    font-size: 12px;
+    background-color: white;
+}
+textarea.post-textarea::-webkit-input-placeholder,
+textarea.post-textarea::-moz-placeholder{
+    color: gray;
+}
+textarea.post-textarea:focus{
+    border: 1px solid #4db6ac;
+}
+
+/* ICONS */
+.large-icon{
+    font-size: 40px;
+}
+.icon-50{
+    font-size: 50px;
+}
+.icon-45{
+    font-size: 45px;
+}
+.icon-40{
+    font-size: 40px;
+}
+.icon-35{
+    font-size: 35px;
+}
+.icon-30{
+    font-size: 30px;
+}
+.icon-25{
+    font-size: 25px;
+}
+.icon-20{
+    font-size: 20px;
+}
+.icon-15{
+    font-size: 15px;
+}
+.icon-10{
+    font-size: 10px;
+}
+.text-14{
+    font-size: 14px;
+}
+.text-13{
+    font-size: 13px;
+}
+.text-12{
+    font-size: 12px;
+}
+.text-11{
     font-size: 11px;
 }

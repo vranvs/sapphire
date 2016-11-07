@@ -13,6 +13,13 @@ if(isset($_GET['error'])){
 }else{
     $login_error = '';
 }
+if(isset($_GET['message'])){
+    if($_GET['message'] == 1){
+        $login_message = 'You have been successfully logged out.';
+    }
+}else{
+    $login_message = '';
+}
 
 
 ?>
@@ -42,9 +49,9 @@ if(isset($_GET['error'])){
 </div>
 <div class="row">
     <div class="col s1 m2 l3"></div>
-    <div class="col s10 m8 l6 grey darken-4 z-depth-2 no-margins">
+    <div class="col s10 m8 l6 white z-depth-2 no-margins">
         <div class="row center-align">
-            <h4 class="white-text" style="font-weight: 200;">
+            <h4 style="font-weight: 200;">
                 Secure Login
             </h4>
         </div>
@@ -60,6 +67,9 @@ if(isset($_GET['error'])){
         <div class="center-align">
             <p class="red-text">
                 <?php echo($login_error) ?>
+            </p>
+            <p class="green-text">
+                <?php echo($login_message) ?>
             </p>
         </div>
     </div>

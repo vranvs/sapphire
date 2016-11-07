@@ -4,5 +4,5 @@ session_start();
 
 session_destroy();
 
-header('Location: login.php');
+header('Location: secure_login.php?message=1');
 

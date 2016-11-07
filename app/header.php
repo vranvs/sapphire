@@ -36,14 +36,13 @@ if(!isset($_SESSION['username']) || !isset($_SESSION['user_group'])){
     <!-- Compiled and minified CSS -->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
-    <link rel="stylesheet" href="css/chartist.css">
+    <link type="text/css" rel="stylesheet" href="css/weather-icons.min.css"/>
     <link rel="stylesheet" href="css/custom.css">
 
     <!-- Compiled and minified JavaScript -->
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/materialize.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/chartist.min.js"></script>
 
 </head>
 <body>
@@ -55,18 +54,18 @@ if(!isset($_SESSION['username']) || !isset($_SESSION['user_group'])){
             <a href="#!email"><span class="white-text email"><?php echo($_SESSION['user_email']) ?></span></a>
         </div></li>
     <!-- MAIN LINK BLOCK -->
-    <li><a href="#!"><i class="material-icons">dashboard</i>Dashboard</a></li>
-    <li><a href="#!"><i class="material-icons">accessibility</i>Leads</a></li>
-    <li><a href="#!"><i class="material-icons">date_range</i>Schedule</a></li>
-    <li><a href="#!"><i class="material-icons">assessment</i>Estimate Calculator</a></li>
-    <li><a href="#!"><i class="material-icons">work</i>Work Orders</a></li>
-    <li><a href="#!"><i class="material-icons">shopping_cart</i>Material Orders</a></li>
+    <li><a href="#!" class="side-nav-button" data-page="0"><i class="material-icons">dashboard</i>Dashboard</a></li>
+    <li><a href="#!" class="side-nav-button" data-page="1"><i class="material-icons">accessibility</i>Leads</a></li>
+    <li><a href="#!" class="side-nav-button" data-page="2"><i class="material-icons">date_range</i>Schedule</a></li>
+    <li><a href="#!" class="side-nav-button" data-page="3"><i class="material-icons">assessment</i>Estimate Calculator</a></li>
+    <li><a href="#!" class="side-nav-button" data-page="4"><i class="material-icons">work</i>Work Orders</a></li>
+    <li><a href="#!" class="side-nav-button" data-page="5"><i class="material-icons">shopping_cart</i>Material Orders</a></li>
     <!-- SEPARATOR BLOCK -->
     <li><div class="divider"></div></li>
     <li><a class="subheader"><?php echo($user_firstname . '\'s Account') ?></a></li>
     <!-- SECONDARY LINK BLOCK -->
     <li><a href="#!"><i class="material-icons">settings</i>Account Settings</a></li>
-    <li><a href="#!"><i class="material-icons">close</i>Logout</a></li>
+    <li><a href="logout.php"><i class="material-icons">close</i>Logout</a></li>
 </ul>
 
 <header>

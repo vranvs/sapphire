@@ -22,59 +22,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-30.1">
-              <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
-              <folding>
-                <marker date="1477782107046" expanded="true" signature="178:221" placeholder="SELECT * FRO..employees..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="secure_login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/secure_login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.079365">
-              <caret line="27" column="78" selection-start-line="27" selection-start-column="78" selection-end-line="27" selection-end-column="78" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/app.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.59644973">
-              <caret line="123" column="61" selection-start-line="123" selection-start-column="61" selection-end-line="123" selection-end-column="61" />
+            <state vertical-scroll-proportion="-5.126984">
+              <caret line="184" column="76" selection-start-line="184" selection-start-column="76" selection-end-line="184" selection-end-column="76" />
               <folding>
-                <element signature="n#div#0;n#div#0;n#main#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#1;n#div#0;n#main#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#1;n#div#0;n#main#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#1;n#div#0;n#main#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#6;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#main#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#div#1;n#div#0;n#main#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#main#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/css/custom.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.454545">
-              <caret line="77" column="18" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="changelog.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/changelog.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -82,18 +40,8 @@
       <file leaf-file-name="materialize.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/css/materialize.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.390625">
-              <caret line="5970" column="24" selection-start-line="5970" selection-start-column="19" selection-end-line="5970" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            <state vertical-scroll-proportion="-1.1818181">
+              <caret line="4128" column="0" selection-start-line="4128" selection-start-column="0" selection-end-line="4133" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -102,26 +50,125 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.4603176">
-              <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="95" />
+            <state vertical-scroll-proportion="-8.966666">
+              <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/css/custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.272727">
+              <caret line="154" column="22" selection-start-line="154" selection-start-column="22" selection-end-line="154" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="changelog.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/changelog.txt">
+          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.909091">
+              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logout.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/logout.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.2">
+              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.6363635">
+              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding>
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1477841497331" expanded="true" signature="2921:3431" placeholder="..." />
-                <marker date="1477841497331" expanded="true" signature="2927:3420" placeholder="..." />
-                <marker date="1477841497331" expanded="true" signature="2976:3413" placeholder="..." />
-                <marker date="1477841497331" expanded="true" signature="3013:3138" placeholder="..." />
-                <marker date="1477841497331" expanded="true" signature="3312:3402" placeholder="..." />
+                <element signature="e#133#222#0" expanded="false" />
+                <element signature="e#516#595#0" expanded="false" />
+                <element signature="e#2401#2659#0" expanded="false" />
+                <element signature="e#2710#2844#0" expanded="false" />
+                <element signature="e#2900#3793#0" expanded="false" />
+                <element signature="e#3841#4795#0" expanded="false" />
+                <element signature="e#4858#5591#0" expanded="false" />
+                <element signature="e#5651#5732#0" expanded="false" />
+                <element signature="e#5819#5870#0" expanded="false" />
+                <element signature="e#5917#5968#0" expanded="false" />
+                <element signature="e#6010#6038#0" expanded="false" />
+                <element signature="e#6085#7064#0" expanded="false" />
+                <element signature="e#7137#7373#0" expanded="false" />
+                <element signature="e#7443#8169#0" expanded="false" />
+                <element signature="e#8870#15442#0" expanded="false" />
+                <element signature="e#22037#24111#0" expanded="false" />
+                <element signature="e#24177#24298#0" expanded="false" />
+                <element signature="e#24323#27151#0" expanded="false" />
+                <element signature="e#24404#26713#0" expanded="false" />
+                <marker date="1478483120696" expanded="true" signature="19906:19922" placeholder="..." />
+                <marker date="1478483120696" expanded="true" signature="23093:23113" placeholder="..." />
+                <marker date="1478483120696" expanded="true" signature="23093:23131" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db_connect.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/db_connect.php">
+      <file leaf-file-name="db_connect.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/remote_files/db_connect.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.4">
-              <caret line="2" column="74" selection-start-line="2" selection-start-column="74" selection-end-line="2" selection-end-column="90" />
+            <state vertical-scroll-proportion="0.04783599">
+              <caret line="2" column="99" selection-start-line="2" selection-start-column="99" selection-end-line="2" selection-end-column="99" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="databasing.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/databasing.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.079365">
+              <caret line="248" column="0" selection-start-line="248" selection-start-column="0" selection-end-line="248" selection-end-column="0" />
+              <folding>
+                <element signature="e#964#1909#0#PHP" expanded="false" />
+                <element signature="e#1910#2480#0#PHP" expanded="false" />
+                <element signature="e#2481#4649#0#PHP" expanded="false" />
+                <element signature="e#4678#5909#0#PHP" expanded="false" />
+                <element signature="e#5910#7260#0#PHP" expanded="false" />
+                <element signature="e#7261#7882#0#PHP" expanded="false" />
+                <marker date="1478474876250" expanded="true" signature="227:278" placeholder="SELECT * FRO..leads..." />
+                <marker date="1478474876250" expanded="true" signature="1137:1204" placeholder="SELECT * FRO..leads..." />
+                <marker date="1478474876250" expanded="true" signature="2079:2141" placeholder="SELECT * FRO..employees..." />
+                <marker date="1478474876250" expanded="true" signature="2594:2646" placeholder="SELECT * FRO..announcements..." />
+                <marker date="1478474876250" expanded="true" signature="2837:2898" placeholder="SELECT * FRO..comments..." />
+                <marker date="1478474876250" expanded="true" signature="4741:4786" placeholder="SELECT * FRO..employees..." />
+                <marker date="1478474876250" expanded="true" signature="5164:5380" placeholder="INSERT INTO ..." />
+                <marker date="1478474876250" expanded="true" signature="6222:6236" placeholder="SELECT * FRO..users..." />
+                <marker date="1478474876250" expanded="true" signature="6222:6245" placeholder="SELECT * FRO..employees..." />
+                <marker date="1478474876250" expanded="true" signature="6856:6947" placeholder="INSERT INTO ..." />
+                <marker date="1478474876250" expanded="true" signature="7515:7616" placeholder="INSERT INTO ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dash.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../schryverslab/dash.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.5">
+              <caret line="366" column="43" selection-start-line="366" selection-start-column="25" selection-end-line="366" selection-end-column="43" />
+              <folding>
+                <marker date="1466992820849" expanded="true" signature="10163:10215" placeholder="SELECT * FRO..orders..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -152,13 +199,19 @@
         <option value="$PROJECT_DIR$/app.html" />
         <option value="$PROJECT_DIR$/app/db_connect.php" />
         <option value="$PROJECT_DIR$/app/login.php" />
-        <option value="$PROJECT_DIR$/app/secure_login.php" />
         <option value="$PROJECT_DIR$/app/css/materialize.css" />
-        <option value="$PROJECT_DIR$/app/js/main.js" />
-        <option value="$PROJECT_DIR$/app/header.php" />
+        <option value="D:/sapphire_csite/sandbox.html" />
+        <option value="D:/sapphire_csite/css/style.css" />
+        <option value="$PROJECT_DIR$/app/logout.php" />
+        <option value="$PROJECT_DIR$/app/secure_login.php" />
+        <option value="$PROJECT_DIR$/app/databasing.php" />
         <option value="$PROJECT_DIR$/changelog.txt" />
+        <option value="$PROJECT_DIR$/app/header.php" />
         <option value="$PROJECT_DIR$/app/css/custom.css" />
         <option value="$PROJECT_DIR$/app/app.php" />
+        <option value="$PROJECT_DIR$/app/js/main.js" />
+        <option value="$USER_HOME$/Desktop/db_connect.php" />
+        <option value="$PROJECT_DIR$/remote_files/db_connect.php" />
       </list>
     </option>
   </component>
@@ -249,6 +302,64 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sapphire" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sapphire" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sapphire" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sapphire" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="avatars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sapphire" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sapphire" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -273,11 +384,11 @@
       <recent name="C:\wamp\www\sapphire\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\sapphire\app\font" />
       <recent name="C:\wamp\www\sapphire\app\css" />
+      <recent name="C:\wamp\www\sapphire\app\js" />
       <recent name="C:\wamp\www\sapphire\js" />
       <recent name="C:\wamp\www\sapphire\css" />
-      <recent name="C:\wamp\www\sapphire\font" />
-      <recent name="C:\wamp\www\sapphire" />
     </key>
   </component>
   <component name="RunManager">
@@ -325,14 +436,14 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13645834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14479166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -357,7 +468,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="5" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -366,7 +479,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="34" selection-end-column="42" />
           <folding>
-            <marker date="1477782107046" expanded="true" signature="178:221" placeholder="SELECT * FRO..employees..." />
+            <marker date="1477782107046" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..employees..." />
           </folding>
         </state>
       </provider>
@@ -375,7 +488,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-          <folding />
+          <folding>
+            <element signature="e#7#324#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -384,10 +499,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#main#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#1;n#div#0;n#main#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#main#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#1;n#div#0;n#main#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#6;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#main#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#main#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -396,7 +511,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#133#222#0" expanded="false" />
+            <element signature="e#516#595#0" expanded="false" />
+            <element signature="e#2401#2659#0" expanded="false" />
+            <element signature="e#2710#2844#0" expanded="false" />
+            <element signature="e#2900#3793#0" expanded="false" />
+            <element signature="e#3841#4795#0" expanded="false" />
+            <element signature="e#4858#5591#0" expanded="false" />
+            <element signature="e#5651#5732#0" expanded="false" />
+            <element signature="e#5819#5870#0" expanded="false" />
+            <element signature="e#5917#5968#0" expanded="false" />
+            <element signature="e#6010#6038#0" expanded="false" />
+            <element signature="e#6085#7064#0" expanded="false" />
+            <element signature="e#7137#7373#0" expanded="false" />
+            <element signature="e#7443#8169#0" expanded="false" />
+            <element signature="e#8870#15442#0" expanded="false" />
+            <element signature="e#22037#24111#0" expanded="false" />
+            <element signature="e#24177#24298#0" expanded="false" />
+            <element signature="e#24323#27151#0" expanded="false" />
+            <element signature="e#24404#26713#0" expanded="false" />
+            <marker date="1478483120696" expanded="true" signature="19906:19922" placeholder="..." />
+            <marker date="1478483120696" expanded="true" signature="23093:23113" placeholder="..." />
+            <marker date="1478483120696" expanded="true" signature="23093:23131" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -404,14 +542,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1477841497331" expanded="true" signature="2921:3431" placeholder="..." />
-            <marker date="1477841497331" expanded="true" signature="2927:3420" placeholder="..." />
-            <marker date="1477841497331" expanded="true" signature="2976:3413" placeholder="..." />
-            <marker date="1477841497331" expanded="true" signature="3013:3138" placeholder="..." />
-            <marker date="1477841497331" expanded="true" signature="3312:3402" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -428,7 +559,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="34" selection-end-column="42" />
           <folding>
-            <marker date="1477782107046" expanded="true" signature="178:221" placeholder="SELECT * FRO..employees..." />
+            <marker date="1477782107046" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..employees..." />
           </folding>
         </state>
       </provider>
@@ -437,7 +568,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-          <folding />
+          <folding>
+            <element signature="e#7#324#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -446,10 +579,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#main#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#1;n#div#0;n#main#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#main#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#1;n#div#0;n#main#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#6;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#main#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#main#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -458,7 +591,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#133#222#0" expanded="false" />
+            <element signature="e#516#595#0" expanded="false" />
+            <element signature="e#2401#2659#0" expanded="false" />
+            <element signature="e#2710#2844#0" expanded="false" />
+            <element signature="e#2900#3793#0" expanded="false" />
+            <element signature="e#3841#4795#0" expanded="false" />
+            <element signature="e#4858#5591#0" expanded="false" />
+            <element signature="e#5651#5732#0" expanded="false" />
+            <element signature="e#5819#5870#0" expanded="false" />
+            <element signature="e#5917#5968#0" expanded="false" />
+            <element signature="e#6010#6038#0" expanded="false" />
+            <element signature="e#6085#7064#0" expanded="false" />
+            <element signature="e#7137#7373#0" expanded="false" />
+            <element signature="e#7443#8169#0" expanded="false" />
+            <element signature="e#8870#15442#0" expanded="false" />
+            <element signature="e#22037#24111#0" expanded="false" />
+            <element signature="e#24177#24298#0" expanded="false" />
+            <element signature="e#24323#27151#0" expanded="false" />
+            <element signature="e#24404#26713#0" expanded="false" />
+            <marker date="1478483120696" expanded="true" signature="19906:19922" placeholder="..." />
+            <marker date="1478483120696" expanded="true" signature="23093:23113" placeholder="..." />
+            <marker date="1478483120696" expanded="true" signature="23093:23131" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -466,14 +622,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1477841497331" expanded="true" signature="2921:3431" placeholder="..." />
-            <marker date="1477841497331" expanded="true" signature="2927:3420" placeholder="..." />
-            <marker date="1477841497331" expanded="true" signature="2976:3413" placeholder="..." />
-            <marker date="1477841497331" expanded="true" signature="3013:3138" placeholder="..." />
-            <marker date="1477841497331" expanded="true" signature="3312:3402" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -493,81 +642,328 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/main.js">
+    <entry file="file://$USER_HOME$/Desktop/chart.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/materialize.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.390625">
-          <caret line="5970" column="24" selection-start-line="5970" selection-start-column="19" selection-end-line="5970" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.4603176">
-          <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="95" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1477841497331" expanded="true" signature="2921:3431" placeholder="..." />
-            <marker date="1477841497331" expanded="true" signature="2927:3420" placeholder="..." />
-            <marker date="1477841497331" expanded="true" signature="2976:3413" placeholder="..." />
-            <marker date="1477841497331" expanded="true" signature="3013:3138" placeholder="..." />
-            <marker date="1477841497331" expanded="true" signature="3312:3402" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/changelog.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.454545">
-          <caret line="77" column="18" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-30.1">
+        <state vertical-scroll-proportion="-28.0">
           <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
           <folding>
-            <marker date="1477782107046" expanded="true" signature="178:221" placeholder="SELECT * FRO..employees..." />
+            <marker date="1477782107046" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..employees..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/sapphire_csite/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="107" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/weather-icons.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72246695">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/Chart.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="240.63637">
+          <caret line="11" column="2079" selection-start-line="11" selection-start-column="2072" selection-end-line="11" selection-end-column="2079" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1477964745328" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1477964745328" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1477964745328" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/sapphire_csite/sandbox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.1">
+          <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="120" selection-end-column="14" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/sapphire_csite/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="174" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../phage/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09567198">
+          <caret line="115" column="52" selection-start-line="115" selection-start-column="52" selection-end-line="115" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../phage/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3325444">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../phage/dash.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.866667">
+          <caret line="136" column="44" selection-start-line="136" selection-start-column="44" selection-end-line="136" selection-end-column="49" />
+          <folding>
+            <element signature="e#57#779#0#PHP" expanded="false" />
+            <element signature="e#781#2165#0#PHP" expanded="false" />
+            <element signature="e#2167#3263#0#PHP" expanded="false" />
+            <marker date="1475386701943" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..meetings..." />
+            <marker date="1475386701943" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..orders..." />
+            <marker date="1475386701943" expanded="true" signature="-1:-1" placeholder="UPDATE order..." />
+            <marker date="1475386701943" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1475386701943" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..users..." />
+            <marker date="1475386701943" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1475386701943" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1475386701943" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..announcements..." />
+            <marker date="1475386701943" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..comments..." />
+            <marker date="1475386701943" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1475386701943" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1475386701943" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..users..." />
+            <marker date="1475386701943" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..events..." />
+            <marker date="1475386701943" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..orders..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../phage/js/dash.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="284" column="5" selection-start-line="179" selection-start-column="16" selection-end-line="284" selection-end-column="5" />
+          <folding>
+            <element signature="e#9203#11008#0" expanded="false" />
+            <element signature="e#11044#12731#0" expanded="false" />
+            <element signature="e#12760#14962#0" expanded="false" />
+            <element signature="e#14988#16311#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/secure_login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.079365">
-          <caret line="27" column="78" selection-start-line="27" selection-start-column="78" selection-end-line="27" selection-end-column="78" />
+        <state vertical-scroll-proportion="-0.41656804">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <element signature="e#7#324#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../schryverslab/js/functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#2172#2419#0" expanded="false" />
+            <element signature="e#2469#2516#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../schryverslab/js/dash.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0638766">
+          <caret line="238" column="0" selection-start-line="238" selection-start-column="0" selection-end-line="238" selection-end-column="0" />
+          <folding>
+            <element signature="e#2103#2188#0" expanded="false" />
+            <element signature="e#2252#2375#0" expanded="false" />
+            <element signature="e#2440#3217#0" expanded="false" />
+            <element signature="e#3259#4720#0" expanded="false" />
+            <element signature="e#4856#5092#0" expanded="false" />
+            <element signature="e#5129#5308#0" expanded="false" />
+            <element signature="e#5789#5842#0" expanded="false" />
+            <element signature="e#5873#6046#0" expanded="false" />
+            <element signature="e#6075#8576#0" expanded="false" />
+            <element signature="e#8610#9524#0" expanded="false" />
+            <element signature="e#9561#11465#0" expanded="false" />
+            <element signature="e#11492#12364#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../phage/js/order.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.90198237">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../schryverslab/dash.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.092511">
+          <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+          <folding>
+            <element signature="e#1944#2029#0" expanded="false" />
+            <element signature="e#2069#2743#0" expanded="false" />
+            <element signature="e#2785#4064#0" expanded="false" />
+            <element signature="e#4105#4134#0" expanded="false" />
+            <element signature="e#4200#4436#0" expanded="false" />
+            <element signature="e#4560#4733#0" expanded="false" />
+            <element signature="e#4762#5666#0" expanded="false" />
+            <element signature="e#5700#6614#0" expanded="false" />
+            <element signature="e#6643#10258#0" expanded="false" />
+            <element signature="e#10287#11661#0" expanded="false" />
+            <element signature="e#11697#13601#0" expanded="false" />
+            <element signature="e#13628#14338#0" expanded="false" />
+            <element signature="e#14374#15319#0" expanded="false" />
+            <marker date="1466992820491" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/databasing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.079365">
+          <caret line="248" column="0" selection-start-line="248" selection-start-column="0" selection-end-line="248" selection-end-column="0" />
+          <folding>
+            <element signature="e#964#1909#0#PHP" expanded="false" />
+            <element signature="e#1910#2480#0#PHP" expanded="false" />
+            <element signature="e#2481#4649#0#PHP" expanded="false" />
+            <element signature="e#4678#5909#0#PHP" expanded="false" />
+            <element signature="e#5910#7260#0#PHP" expanded="false" />
+            <element signature="e#7261#7882#0#PHP" expanded="false" />
+            <marker date="1478474876250" expanded="true" signature="227:278" placeholder="SELECT * FRO..leads..." />
+            <marker date="1478474876250" expanded="true" signature="1137:1204" placeholder="SELECT * FRO..leads..." />
+            <marker date="1478474876250" expanded="true" signature="2079:2141" placeholder="SELECT * FRO..employees..." />
+            <marker date="1478474876250" expanded="true" signature="2594:2646" placeholder="SELECT * FRO..announcements..." />
+            <marker date="1478474876250" expanded="true" signature="2837:2898" placeholder="SELECT * FRO..comments..." />
+            <marker date="1478474876250" expanded="true" signature="4741:4786" placeholder="SELECT * FRO..employees..." />
+            <marker date="1478474876250" expanded="true" signature="5164:5380" placeholder="INSERT INTO ..." />
+            <marker date="1478474876250" expanded="true" signature="6222:6236" placeholder="SELECT * FRO..users..." />
+            <marker date="1478474876250" expanded="true" signature="6222:6245" placeholder="SELECT * FRO..employees..." />
+            <marker date="1478474876250" expanded="true" signature="6856:6947" placeholder="INSERT INTO ..." />
+            <marker date="1478474876250" expanded="true" signature="7515:7616" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.2">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.966666">
+          <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/materialize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1818181">
+          <caret line="4128" column="0" selection-start-line="4128" selection-start-column="0" selection-end-line="4133" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../schryverslab/dash.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.5">
+          <caret line="366" column="43" selection-start-line="366" selection-start-column="25" selection-end-line="366" selection-end-column="43" />
+          <folding>
+            <marker date="1466992820849" expanded="true" signature="10163:10215" placeholder="SELECT * FRO..orders..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.272727">
+          <caret line="154" column="22" selection-start-line="154" selection-start-column="22" selection-end-line="154" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/changelog.txt">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.909091">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59644973">
-          <caret line="123" column="61" selection-start-line="123" selection-start-column="61" selection-end-line="123" selection-end-column="61" />
+        <state vertical-scroll-proportion="-5.126984">
+          <caret line="184" column="76" selection-start-line="184" selection-start-column="76" selection-end-line="184" selection-end-column="76" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#main#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#1;n#div#0;n#main#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#main#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#1;n#div#0;n#main#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#6;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#main#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#main#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.6363635">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding>
+            <element signature="e#133#222#0" expanded="false" />
+            <element signature="e#516#595#0" expanded="false" />
+            <element signature="e#2401#2659#0" expanded="false" />
+            <element signature="e#2710#2844#0" expanded="false" />
+            <element signature="e#2900#3793#0" expanded="false" />
+            <element signature="e#3841#4795#0" expanded="false" />
+            <element signature="e#4858#5591#0" expanded="false" />
+            <element signature="e#5651#5732#0" expanded="false" />
+            <element signature="e#5819#5870#0" expanded="false" />
+            <element signature="e#5917#5968#0" expanded="false" />
+            <element signature="e#6010#6038#0" expanded="false" />
+            <element signature="e#6085#7064#0" expanded="false" />
+            <element signature="e#7137#7373#0" expanded="false" />
+            <element signature="e#7443#8169#0" expanded="false" />
+            <element signature="e#8870#15442#0" expanded="false" />
+            <element signature="e#22037#24111#0" expanded="false" />
+            <element signature="e#24177#24298#0" expanded="false" />
+            <element signature="e#24323#27151#0" expanded="false" />
+            <element signature="e#24404#26713#0" expanded="false" />
+            <marker date="1478483120696" expanded="true" signature="19906:19922" placeholder="..." />
+            <marker date="1478483120696" expanded="true" signature="23093:23113" placeholder="..." />
+            <marker date="1478483120696" expanded="true" signature="23093:23131" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remote_files/db_connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04783599">
+          <caret line="2" column="99" selection-start-line="2" selection-start-column="99" selection-end-line="2" selection-end-column="99" />
+          <folding />
         </state>
       </provider>
     </entry>
