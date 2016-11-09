@@ -175,21 +175,26 @@ include_once 'header.php';
                     <div class="widget auto-height">
                         <div class="row widget-header no-margins ">
                             <div class="col s6">
-                                <p class="widget-title">
+                                <p id="dash_weather_title" class="widget-title">
                                     Weather
                                 </p>
                             </div>
                             <div class="col s6 right-align">
 
                                 <ul id='weather_widget_options' class='dropdown-content'>
-                                    <li><a class="weather-city-code-button" href="#!" data-code="49550">Barrie</a></li>
-                                    <li><a class="weather-city-code-button" href="#!" data-code="54977">Orangeville</a></li>
+                                    <li><a class="weather-city-code-button" href="#!" data-city="Angus" data-code="55012">Angus</a></li>
+                                    <li><a class="weather-city-code-button" href="#!" data-city="Barrie" data-code="49550">Barrie</a></li>
+                                    <li><a class="weather-city-code-button" href="#!" data-city="Gravenhurst" data-code="55002">Gravenhurst</a></li>
+                                    <li><a class="weather-city-code-button" href="#!" data-city="King City" data-code="55173">King City</a></li>
+                                    <li><a class="weather-city-code-button" href="#!" data-city="Midland" data-code="55004">Midland</a></li>
+                                    <li><a class="weather-city-code-button" href="#!" data-city="Newmarket" data-code="55017">Newmarket</a></li>
+                                    <li><a class="weather-city-code-button" href="#!" data-city="Orangeville" data-code="54977">Orangeville</a></li>
+                                    <li><a class="weather-city-code-button" href="#!" data-city="Scarborough" data-code="55049">Scarborough</a></li>
+                                    <li><a class="weather-city-code-button" href="#!" data-city="Toronto" data-code="55488">Toronto</a></li>
+                                    <li><a class="weather-city-code-button" href="#!" data-city="Wasaga Beach" data-code="55488">Wasaga Beach</a></li>
                                     <li class="divider"></li>
                                     <li><a href="#!">Hourly</a></li>
                                     <li><a href="#!">3-Day</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="#!">Graph</a></li>
-                                    <li><a href="#!">Grid</a></li>
                                     <li class="divider"></li>
                                 </ul>
                                 <i class="material-icons dropdown-button" data-activates='weather_widget_options'>
@@ -220,6 +225,68 @@ include_once 'header.php';
                             <div id="dash_widget_weather_grid_hourly" class="row dash-weather-widget-view center-align">
                                 <h5 class="teal-text">HOURLY FORECAST</h5>
                             </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--TASK LIST WIDGET-->
+                <div class="col s12 m12 l12 widget-container">
+                    <div class="widget auto-height">
+                        <div class="row widget-header no-margins ">
+                            <div class="col s6">
+                                <p class="widget-title">
+                                    Tasks
+                                </p>
+                            </div>
+                            <div class="col s6 right-align">
+
+                                <ul id='task_widget_options' class='dropdown-content'>
+                                    <li><a class="task-code-button" href="#!" data-code="1">My Tasks</a></li>
+                                    <li><a class="task-code-button" href="#!" data-code="2">Global Tasks</a></li>
+                                    <li><a class="task-code-button" href="#!" data-code="3">Employee Lookup</a></li>
+                                </ul>
+                                <i class="material-icons dropdown-button" data-activates='task_widget_options'>
+                                    settings
+                                </i>
+                                <i class="widget-sizer material-icons">
+                                    expand_less
+                                </i>
+                                <i class="material-icons">
+                                    close
+                                </i>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col s12">
+                                <div class="divider"></div>
+                            </div>
+                        </div>
+                        <div class="row widget-body">
+                            <!--VIEW: MY TASKS-->
+                            <div class="row">
+                                <div class="col s12">
+                                    <ul class="collapsible" data-collapsible="accordion">
+                                        <li>
+                                            <div class="collapsible-header">
+                                                TASK NAME
+                                            </div>
+                                            <div class="collapsible-body row">
+                                                <div class="col s12 top-margin">
+                                                    <a class="btn-floating green"><i class="material-icons">done</i></a> Mark as complete
+                                                    <a class="btn-floating red"><i class="material-icons">delete</i></a> Delete this task
+                                                </div>
+                                                <div class="col s12 left-align"></div>
+                                                <p>TASK DETAILS</p>
+                                                <div class="row"></div>
+                                            </div>
+
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--VIEW: GLOBAL TASKS-->
+
+                            <!--VIEW: LOOKUP TASKS-->
                         </div>
                     </div>
                 </div>
@@ -322,7 +389,7 @@ include_once 'header.php';
 
                 <!--MEASUREMENTS WIDGET-->
                 <div class="col s12 m12 l6 widget-container auto-height">
-                    <div class="widget">
+                    <div class="widget auto-height">
                         <div class="row widget-header no-margins">
                             <div class="col s10">
                                 <p class="widget-title">
@@ -348,16 +415,96 @@ include_once 'header.php';
                                 <!-- POST CONTENT -->
                                 <div class="row">
                                     <div class="col s12 m6 l6">
-                                        <h5>Square Footage</h5>
                                         <input id="estcalc_x_dimension" class="formal-input" type="text" placeholder="X Dimension (ft)"/>
                                         <input id="estcalc_y_dimension" class="formal-input" type="text" placeholder="Y Dimension (ft)"/>
                                         <input id="estcalc_area" class="formal-input" type="text" placeholder="Area (sqft)" disabled>
                                     </div>
                                     <div class="col s12 m6 l6">
-                                        <h5>Pitch</h5>
                                         <input id="estcalc_pitch" class="formal-input" type="text" placeholder="? / 12"/>
                                         <input id="estcalc_bundles" class="formal-input" type="text" placeholder="Bundles">
                                         <input id="estcalc_cap" class="formal-input" type="text" placeholder="Cap">
+                                    </div>
+                                    <div class="col s12 right-align top-margin">
+                                        <a class="btn">Save Measurements</a>
+                                    </div>
+                                    <div id="estcalc_roofing_sqft_sections" class="row">
+                                        <table class="striped">
+                                            <thead>
+                                            <tr>
+                                                <th data-field="id">#</th>
+                                                <th data-field="name">X</th>
+                                                <th data-field="name">Y</th>
+                                                <th data-field="name">FT&sup2;</th>
+                                                <th data-field="name">PITCH</th>
+                                                <th data-field="price">BUND.</th>
+                                                <th data-field="price">CAP.</th>
+                                                <th data-field="price">DEL</th>
+                                            </tr>
+                                            </thead>
+
+                                            <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>221</td>
+                                                <td>10</td>
+                                                <td>2210</td>
+                                                <td>7/12</td>
+                                                <td>80</td>
+                                                <td>15</td>
+                                                <td><a class="btn-floating"><i class="material-icons">clear</i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>221</td>
+                                                <td>10</td>
+                                                <td>2210</td>
+                                                <td>7/12</td>
+                                                <td>80</td>
+                                                <td>15</td>
+                                                <td><a class="btn-floating"><i class="material-icons">clear</i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>221</td>
+                                                <td>10</td>
+                                                <td>2210</td>
+                                                <td>7/12</td>
+                                                <td>80</td>
+                                                <td>15</td>
+                                                <td><a class="btn-floating"><i class="material-icons">clear</i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>221</td>
+                                                <td>10</td>
+                                                <td>2210</td>
+                                                <td>7/12</td>
+                                                <td>80</td>
+                                                <td>15</td>
+                                                <td><a class="btn-floating"><i class="material-icons">clear</i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>221</td>
+                                                <td>10</td>
+                                                <td>2210</td>
+                                                <td>7/12</td>
+                                                <td>80</td>
+                                                <td>15</td>
+                                                <td><a class="btn-floating"><i class="material-icons">clear</i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>221</td>
+                                                <td>10</td>
+                                                <td>2210</td>
+                                                <td>7/12</td>
+                                                <td>80</td>
+                                                <td>15</td>
+                                                <td><a class="btn-floating"><i class="material-icons">clear</i></a></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
                                 </div>
                             </div>
@@ -397,7 +544,14 @@ include_once 'header.php';
                                         <p>
                                             <input type="checkbox" id="test0" />
                                             <label for="test0">Removal of 1 layer of existing shingles</label>
-                                            <input type="text" class="formal-input valign" placeholder="3ft, 6ft">
+                                            <select>
+                                                <option value="" disabled selected>Select # of Layers</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                            </select>
+                                            <label>Layer Number</label>
+                                            <input type="text" class="formal-input valign" placeholder="Indicate Cost">
                                             <div class="divider"></div>
                                         </p>
                                     </div>
@@ -406,7 +560,13 @@ include_once 'header.php';
                                         <p>
                                             <input type="checkbox" id="test1" />
                                             <label for="test1">Installation - 3ft Ice & Water Shield</label>
-                                            <input type="text" class="formal-input valign" placeholder="3ft, 6ft">
+                                            <select>
+                                                <option value="" disabled selected>3FT or 6FT</option>
+                                                <option value="1">3 FT</option>
+                                                <option value="2">6 FT</option>
+                                            </select>
+                                            <label>3 / 6 FT</label>
+                                            <input type="text" class="formal-input valign" placeholder="Indicate Cost">
                                             <div class="divider"></div>
                                         </p>
                                     </div>
@@ -415,7 +575,7 @@ include_once 'header.php';
                                         <p>
                                             <input type="checkbox" id="test2" />
                                             <label for="test2">Balance of Roof - Snynthetic Underlayment</label>
-                                            <input type="text" class="formal-input valign" placeholder="Notes">
+                                            <input type="text" class="formal-input valign" placeholder="Indicate Price">
                                         <div class="divider"></div>
                                         </p>
                                     </div>
@@ -424,7 +584,7 @@ include_once 'header.php';
                                         <p>
                                             <input type="checkbox" id="test3" />
                                             <label for="test3">Vent & Plumbing Stack Flashing</label>
-                                            <input type="text" class="formal-input valign" placeholder="Notes">
+                                            <input type="text" class="formal-input valign" placeholder="Indicate Price">
                                         <div class="divider"></div>
                                         </p>
                                     </div>
@@ -433,7 +593,7 @@ include_once 'header.php';
                                         <p>
                                             <input type="checkbox" id="test4" />
                                             <label for="test4">28-Gauge Metal Valley Installation</label>
-                                            <input type="text" class="formal-input valign" placeholder="Notes">
+                                            <input type="text" class="formal-input valign" placeholder="Indicate Price">
                                         <div class="divider"></div>
                                         </p>
                                     </div>
@@ -442,7 +602,7 @@ include_once 'header.php';
                                         <p>
                                             <input type="checkbox" id="test5" />
                                             <label for="test5">Supply & Install Vents</label>
-                                            <input type="text" class="formal-input valign" placeholder="Notes">
+                                            <input type="text" class="formal-input valign" placeholder="Indicate Price">
                                         <div class="divider"></div>
                                         </p>
                                     </div>
@@ -481,6 +641,7 @@ include_once 'header.php';
                                                 <option value="1">Brown</option>
                                                 <option value="2">Black</option>
                                             </select>
+                                            <input type="text" class="formal-input valign" placeholder="Indicate Quantity of Vents">
                                         <div class="divider"></div>
                                         </p>
                                     </div>
@@ -515,31 +676,42 @@ include_once 'header.php';
                         </div>
                         <div class="row widget-body">
                             <!-- SHINGLES -->
-                            <div class="col s12 m12 l6">
-                                <select>
-                                    <option value="" disabled selected>Choose a supplier</option>
-                                    <option value="1">BP</option>
-                                    <option value="2">CertainTeed</option>
-                                    <option value="3">GAF</option>
-                                    <option value="4">IKO</option>
-                                    <option value="5">Owens Corning</option>
-                                </select>
-                                <label>Supplier / Company</label>
-                            </div>
+                            <div class="col s12">
 
-                            <div class="col s12 m12 l6">
-                                <select>
-                                    <option value="" disabled selected>Choose a shingle type</option>
-                                    <option value="1">Type 1</option>
-                                    <option value="2">Type 2</option>
-                                </select>
-                                <label>Shingle Type</label>
+                                <table>
+                                    <thead>
+                                    <tr>
+                                        <th data-field="id">COMPANY</th>
+                                        <th data-field="name">SHINGLE 1</th>
+                                        <th data-field="price">SHINGLE 2</th>
+                                        <th data-field="price">SHINGLE 3</th>
+                                    </tr>
+                                    </thead>
+
+                                    <tbody>
+                                    <tr>
+                                        <td>Alvin</td>
+                                        <td>Eclair</td>
+                                        <td>$0.87</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Alan</td>
+                                        <td>Jellybean</td>
+                                        <td>$3.76</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Jonathan</td>
+                                        <td>Lollipop</td>
+                                        <td>$7.00</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!--SHINGLES WIDGET-->
+                <!--COMPLETION WIDGET-->
                 <div class="col s12 widget-container">
                     <div class="widget auto-height">
                         <div class="row widget-header no-margins">
@@ -573,37 +745,76 @@ include_once 'header.php';
                                     </select>
                                     <label>Completion Time</label>
                                 </div>
+                                <div class="col s12">
+                                    <p>
+                                        <input type="checkbox" id="estcalc_credit_card" />
+                                        <label for="estcalc_credit_card">3% Credit Card Surcharge</label>
+                                    <div class="divider"></div>
+                                    </p>
+                                </div>
+
                             </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--ESTIMATE VALUES-->
+                <div class="col s12 widget-container">
+                    <div class="widget auto-height">
+                        <div class="row widget-header no-margins">
+                            <div class="col s10">
+                                <p class="widget-title">
+                                    Finalized Numbers
+                                </p>
+                            </div>
+                            <div class="col s2 right-align">
+                                <i class="widget-sizer material-icons">
+                                    expand_less
+                                </i>
+                                <i class="material-icons">
+                                    settings
+                                </i>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col s12">
+                                <div class="divider"></div>
+                            </div>
+                        </div>
+                        <div class="row widget-body">
+                            <!-- FINAL NUMBERS -->
 
                             <div class="row">
-                                <div class="col s12 m12 l4 center-align">
+                                <div class="col s12 m12 l3 center-align">
                                     <h5 class="teal-text">COST</h5>
                                     <h3>$22,000</h3>
                                     <div class="divider"></div>
                                 </div>
 
-                                <div class="col s12 m12 l4 center-align">
+                                <div class="col s12 m12 l3 center-align">
                                     <h5 class="teal-text">COST + TAX</h5>
                                     <h3>$25,520</h3>
                                     <div class="divider"></div>
                                 </div>
 
-                                <div class="col s12 m12 l4 center-align">
+                                <div class="col s12 m12 l3 center-align">
                                     <h5 class="teal-text">DEPOSIT</h5>
                                     <h3>$2,520</h3>
+                                    <div class="divider"></div>
+                                </div>
+
+                                <div class="col s12 m12 l3 center-align">
+                                    <h5 class="teal-text">PROFIT MARGIN</h5>
+                                    <h3>22.6%</h3>
                                     <div class="divider"></div>
                                 </div>
                             </div>
 
                             <div class="row">
-                                <div class="col s12 m6 l4 center-align top-margin">
-                                    <a id="dash_submit_post_btn" class="waves-effect waves-light btn"><i class="material-icons right">save</i>save</a>
-                                </div>
-                                <div class="col s12 m6 l4 center-align top-margin">
-                                    <a id="dash_submit_post_btn" class="waves-effect waves-light btn"><i class="material-icons right">mail</i>save & email</a>
-                                </div>
-                                <div class="col s12 m6 l4 center-align top-margin">
-                                    <a id="dash_submit_post_btn" class="waves-effect waves-light btn"><i class="material-icons right">print</i>save & print</a>
+                                <div class="col s12 right-align top-margin">
+                                    <a id="dash_submit_post_btn" class="waves-effect waves-light btn top-margin"><i class="material-icons right">save</i>save</a>
+                                    <a id="dash_submit_post_btn" class="waves-effect waves-light btn top-margin"><i class="material-icons right">print</i>save & print</a>
+                                    <a id="dash_submit_post_btn" class="waves-effect waves-light btn top-margin"><i class="material-icons right">mail</i>save & email</a>
                                 </div>
                             </div>
                         </div>

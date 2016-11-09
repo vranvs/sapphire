@@ -1,4 +1,18 @@
 /*----------------------------------------------------*/
+November 7, 2016
+- API AccuWeather Codes:{
+    Newmarket: 55017
+    King: 55173
+    Toronto: 55488
+    Scarborough: 55049
+    Gravenhurst: 55002
+    Midland: 55004
+    Wasaga Beach: 55486
+    Angus: 55012
+}
+-
+
+/*----------------------------------------------------*/
 November 2-6, 2016
 - Enabled posting and commenting (PHP Backend, JS frontend)
 - Created auto-sizeable widget CSS class for mobile layouts

@@ -154,6 +154,10 @@ input[type=date].formal-input{
 .weather-panel:nth-child(odd){
     background-color: white;
 }
+.sqft-section{
+    font-size: 11px;
+    color: gray;
+}
 .post-container{
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); /* Z-DEPTH-1.5 */
     border-radius: 2px;

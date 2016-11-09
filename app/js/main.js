@@ -40,6 +40,7 @@ $(document).ready(function(){
     var dashRecentLeadList  = $("#dash_recent_leads_list");
     var dashLeadEstimatorAcd= $("#dash_lead_estimator_autocomplete_container");
     var dashWeatherGridHourly = $("#dash_widget_weather_grid_hourly");
+    var dashWeatherTitle    = $("#dash_weather_title");
 
     //estimator calculator cache
     var estCalcXDimension   = $("#estcalc_x_dimension");
@@ -170,6 +171,7 @@ $(document).ready(function(){
     });
     $(".weather-city-code-button").on('click', function(){
         weatherCityCode = $(this).data('code');
+        dashWeatherTitle.html("Weather in " + $(this).data('city'));
         CallForWeather();
     });
 
@@ -385,7 +387,7 @@ $(document).ready(function(){
                     }
 
                     dashWeatherGridHourly.append(
-                    '<div class="col s12 m12 l2 weather-panel gen-weather">' +
+                    '<div class="col s6 m4 l2 weather-panel gen-weather">' +
                         '<div class="center-align">' +
                         '<h6 class="teal-text">' + data[i].DateTime.substr(11, 5) + '</h6>' +
                         '<div class="divider"></div>' +
